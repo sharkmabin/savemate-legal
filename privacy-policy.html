@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SaveMate Privacy Policy</title>
+  <meta name="description" content="SaveMate Privacy Policy" />
+  <style>
+    :root { color-scheme: light dark; --fg:#172033; --muted:#5b667a; --bg:#f7f8fb; --card:#ffffff; --line:#e4e8f0; --accent:#5b6cff; }
+    @media (prefers-color-scheme: dark) { :root { --fg:#eef2ff; --muted:#aab3c7; --bg:#0d1020; --card:#151a2e; --line:#2a3148; --accent:#8ea0ff; } }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--fg); line-height:1.65; }
+    main { max-width:900px; margin:0 auto; padding:40px 20px 72px; }
+    article { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:32px; box-shadow:0 12px 40px rgba(15,23,42,.08); }
+    h1 { font-size:2.1rem; line-height:1.15; margin:0 0 8px; }
+    h2 { margin-top:34px; padding-top:18px; border-top:1px solid var(--line); font-size:1.35rem; }
+    h3 { margin-top:22px; font-size:1.05rem; }
+    p, li { color:var(--fg); }
+    .muted { color:var(--muted); }
+    a { color:var(--accent); }
+    ul { padding-left:1.35rem; }
+    .notice { background:rgba(91,108,255,.1); border:1px solid rgba(91,108,255,.28); border-radius:12px; padding:14px 16px; margin:18px 0; }
+    code { background:rgba(127,127,127,.15); padding:.1em .35em; border-radius:6px; }
+    footer { margin-top:24px; color:var(--muted); font-size:.92rem; }
+  </style>
+</head>
+<body>
+<main>
+<article>
+<h1>SaveMate Privacy Policy</h1>
+<p class="muted">Effective date: 2026-05-25</p>
+<div class="notice">SaveMate is an independent media saving utility for links to public Instagram content that you own, have permission to save, or are otherwise allowed to save under applicable platform rules and law. SaveMate is not affiliated with, endorsed by, sponsored by, or officially connected with Instagram or Meta.</div>
+<p>This policy explains what information SaveMate processes, why it is processed, and how you can control it.</p>
+
+<h2>1. Information You Provide or Generate</h2>
+<h3>Instagram links</h3>
+<p>When you paste, share, or type an Instagram link into SaveMate, the app processes that link to analyze available public media metadata and downloadable media URLs.</p>
+<p>Purpose:</p>
+<ul><li>Parse the link you intentionally provide.</li><li>Show media previews when available.</li><li>Start downloads you request.</li><li>Diagnose failed parsing attempts.</li></ul>
+<h3>Download history stored on your device</h3>
+<p>SaveMate may store local download history, including media title or filename, media type, source link status, save location, task status, and timestamps.</p>
+<p>This history is stored locally on your device unless you manually export or share it through Android system features.</p>
+<h3>Instagram login session cookies</h3>
+<p>Some links may require that you connect Instagram inside SaveMate. Login happens through Instagram's official web page shown in a WebView. SaveMate does not ask for or store your Instagram username or password.</p>
+<p>If you choose to connect Instagram, SaveMate may store Instagram session cookies or related web session values locally on your device, encrypted with Android Keystore where supported.</p>
+<p>You can clear the Instagram connection from inside the app. Clearing it removes the locally stored session data used by SaveMate.</p>
+
+<h2>2. Information Collected Automatically</h2>
+<h3>App analytics</h3>
+<p>SaveMate uses Firebase Analytics to understand basic app usage and improve reliability and product quality.</p>
+<p>Analytics events may include app opens, link paste/share events, parse started/succeeded/failed events, download started/succeeded/failed events, Instagram connection events, and settings/history screen events.</p>
+<p>SaveMate does not intentionally send Instagram passwords, raw cookies, API keys, or full diagnostic secrets to analytics.</p>
+<p>Firebase privacy information: <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<h3>Crash reporting</h3>
+<p>SaveMate uses Firebase Crashlytics to collect crash reports and diagnostic information when the app crashes or encounters stability problems.</p>
+<p>Crash reports may include app version, device model, operating system version, crash stack traces, and technical diagnostics needed to understand and fix the crash. SaveMate should not intentionally send Instagram passwords, raw cookies, API keys, or full diagnostic secrets to Crashlytics.</p>
+
+<h2>3. Permissions Used</h2>
+<ul>
+<li><strong>Internet access:</strong> Used to fetch web pages, media metadata, media files, Firebase endpoints, and optional third-party parsing endpoints.</li>
+<li><strong>Notifications:</strong> On Android 13 and above, SaveMate may request notification permission to show download progress, completion, or failure notifications. If denied, downloads should still continue and their status can be viewed inside the app.</li>
+<li><strong>Foreground service / wake lock:</strong> Used by download-related components to keep download work reliable while the task is active.</li>
+<li><strong>Legacy external storage write permission:</strong> Used only on older Android versions where needed to save files to public download locations.</li>
+</ul>
+
+<h2>4. Third-Party Services</h2>
+<h3>Instagram / Meta web services</h3>
+<p>When you provide an Instagram link or connect Instagram in the WebView, requests may be made to Instagram or Meta domains as part of normal web login, cookie handling, or content parsing.</p>
+<h3>Firebase Analytics and Crashlytics</h3>
+<p>Provider: Google LLC. Purpose: analytics, crash reporting, app stability, and product improvement.</p>
+<h3>Optional parsing providers</h3>
+<p>SaveMate may use third-party parsing providers to improve parsing reliability when direct parsing fails. If used, the Instagram link you submit and technical request metadata may be sent to the provider to return media metadata or downloadable media URLs. SaveMate should not send your Instagram password to any parsing provider.</p>
+
+<h2>5. Storage and Retention</h2>
+<ul>
+<li>Download history is stored locally on your device until you clear it or remove app data.</li>
+<li>Instagram session data remains until you clear the Instagram connection, clear app data, uninstall the app, or the session expires.</li>
+<li>Downloaded files remain on your device until you delete them.</li>
+<li>Firebase data is processed by Google Firebase according to Firebase's policies and project settings.</li>
+</ul>
+
+<h2>6. Your Choices and Controls</h2>
+<ul>
+<li>Clear local download history in the app.</li>
+<li>Clear the Instagram connection in the app.</li>
+<li>Delete downloaded files from your device.</li>
+<li>Deny notification permission on Android 13+.</li>
+<li>Clear app data or uninstall SaveMate to remove local app data.</li>
+</ul>
+
+<h2>7. Children's Privacy</h2>
+<p>SaveMate is not intended for children under the age required by applicable law to use online services without parental consent. Users should only save content they have the legal right to save.</p>
+
+<h2>8. Copyright and Acceptable Use</h2>
+<p>You are responsible for ensuring that you have the right to save and use any content processed by SaveMate. SaveMate must not be used to infringe copyrights, violate privacy rights, bypass access controls, or download content you are not authorized to save.</p>
+
+<h2>9. International Transfers</h2>
+<p>Third-party services such as Firebase or optional parsing providers may process data on servers outside your country or region.</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>We may update this policy when the app changes, when third-party services are added or removed, or when legal requirements change.</p>
+
+<h2>11. Contact</h2>
+<p>Operator / Developer: sharkmabin</p>
+<p>Support email: nana20180519@gmail.com</p>
+<p>Privacy contact: nana20180519@gmail.com</p>
+<p>Copyright / DMCA contact: nana20180519@gmail.com</p>
+<p>Website: https://sharkmabin.github.io/savemate-legal/</p>
+
+<footer>Published policy page for SaveMate.</footer>
+</article>
+</main>
+</body>
+</html>
