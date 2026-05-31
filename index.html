@@ -5,25 +5,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SaveMate Legal</title>
   <meta name="description" content="SaveMate legal and policy documents" />
-  <style>
-    :root { color-scheme: light dark; --fg:#172033; --muted:#5b667a; --bg:#f7f8fb; --card:#ffffff; --line:#e4e8f0; --accent:#5b6cff; }
-    @media (prefers-color-scheme: dark) { :root { --fg:#eef2ff; --muted:#aab3c7; --bg:#0d1020; --card:#151a2e; --line:#2a3148; --accent:#8ea0ff; } }
-    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--fg); line-height:1.65; }
-    main { max-width:760px; margin:0 auto; padding:56px 20px; }
-    section { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:32px; box-shadow:0 12px 40px rgba(15,23,42,.08); }
-    h1 { margin:0 0 8px; }
-    p { color:var(--muted); }
-    a { display:block; color:var(--accent); font-weight:700; text-decoration:none; padding:16px 0; border-top:1px solid var(--line); }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="SaveMate Legal home">
+    <span class="brand-mark">S</span>
+    <span>
+      <strong>SaveMate</strong>
+      <small>Legal Center</small>
+    </span>
+  </a>
+  <nav class="top-nav" aria-label="Legal pages">
+    <a href="privacy-policy.html">Privacy</a>
+    <a href="copyright-dmca.html">Copyright</a>
+  </nav>
+</header>
+
 <main>
-<section>
-<h1>SaveMate Legal</h1>
-<p>Policy and legal documents for SaveMate.</p>
-<a href="privacy-policy.html">Privacy Policy</a>
-<a href="copyright-dmca.html">Copyright, DMCA, and Acceptable Use Notice</a>
-</section>
+  <section class="hero hero-compact">
+    <div class="hero-copy">
+      <span class="eyebrow">Policy documents</span>
+      <h1>Clear rules for responsible saving.</h1>
+      <p>SaveMate is built for saving public media only when you own it, have permission, or are otherwise allowed to save it.</p>
+    </div>
+    <div class="status-panel" aria-label="Policy status">
+      <div class="status-row">
+        <span class="dot dot-green"></span>
+        <span>Public privacy policy</span>
+      </div>
+      <div class="status-row">
+        <span class="dot dot-amber"></span>
+        <span>Copyright-first usage terms</span>
+      </div>
+      <div class="status-row">
+        <span class="dot dot-coral"></span>
+        <span>Independent from Instagram / Meta</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="link-grid" aria-label="Legal documents">
+    <a class="doc-tile" href="privacy-policy.html">
+      <span class="tile-icon">P</span>
+      <span>
+        <strong>Privacy Policy</strong>
+        <small>Data, permissions, cookies, third-party services, and user controls.</small>
+      </span>
+    </a>
+    <a class="doc-tile" href="copyright-dmca.html">
+      <span class="tile-icon tile-icon-coral">C</span>
+      <span>
+        <strong>Copyright, DMCA, and Acceptable Use</strong>
+        <small>Responsible saving rules, copyright complaints, and platform disclaimer.</small>
+      </span>
+    </a>
+  </section>
 </main>
+
+<footer class="site-footer">
+  <span>SaveMate is an independent app and is not affiliated with Instagram or Meta.</span>
+</footer>
 </body>
 </html>
